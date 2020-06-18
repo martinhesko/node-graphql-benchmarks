@@ -1,0 +1,90 @@
+""" @model """
+type Note0 {
+  id: ID!
+  title: String!
+  description: String
+  """
+  @oneToMany field: 'note'
+  """
+  comments: [Comment0]!
+}
+
+""" @model """
+type Comment0 {
+  id: ID!
+  text: String
+  description: String
+}
+
+""" @model """
+type Note1 {
+  id: ID!
+  title: String!
+  description: String
+  """
+  @oneToMany field: 'note'
+  """
+  comments: [Comment1]!
+}
+
+""" @model """
+type Comment1 {
+  id: ID!
+  text: String
+  description: String
+}
+
+""" @model """
+type Note2 {
+  id: ID!
+  title: String!
+  description: String
+  """
+  @oneToMany field: 'note'
+  """
+  comments: [Comment2]!
+}
+
+""" @model """
+type Comment2 {
+  id: ID!
+  text: String
+  description: String
+}
+
+""" @model """
+type Note3 {
+  id: ID!
+  title: String!
+  description: String
+  """
+  @oneToMany field: 'note'
+  """
+  comments: [Comment3]!
+}
+
+""" @model """
+type Comment3 {
+  id: ID!
+  text: String
+  description: String
+}
+
+""" @model """
+type Note4 {
+  id: ID!
+  title: String!
+  description: String
+  """
+  @oneToMany field: 'note'
+  """
+  comments: [Comment4]!
+}
+
+""" @model """
+type Comment4 {
+  id: ID!
+  text: String
+  description: String
+}
+

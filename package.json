@@ -52,6 +52,7 @@
     "fastify-gql": "^2.1.0",
     "foxify": "^0.10.20",
     "frameguard": "^3.0.0",
+    "graphback": "^0.14.0-alpha4",
     "graphql-api-koa": "^4.1.0",
     "graphql-compose": "^7.9.0",
     "graphql-jit": "^0.4.2",
@@ -111,6 +112,7 @@
     "@types/micro": "^7.3.3",
     "@types/microrouter": "^3.1.1",
     "@types/restify": "^8.4.2",
+    "eslint": "^7.2.0",
     "snazzy": "^8.0.0",
     "standard": "^14.3.1",
     "typescript": "^3.7.4"
