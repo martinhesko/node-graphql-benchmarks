@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { genSchema } = require("../lib/genSchema.js");
 const { exec } = require('child_process');
-fs.writeFile("templates/ts-apollo-mongodb-backend/model/Note.graphql", genSchema(5), function(err) {
+fs.writeFile("templates/ts-apollo-mongodb-backend/model/Note.graphql", genSchema(50), function(err) {
     if(err) {
         return console.log(err);
     }
