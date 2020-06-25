@@ -28,6 +28,7 @@
   "dependencies": {
     "@hapi/hapi": "^18.3.0",
     "@leizm/web": "^2.6.0",
+    "apollo-fetch": "^0.7.0",
     "apollo-opentracing": "^1.4.2",
     "apollo-server-express": "^2.9.15",
     "apollo-server-fastify": "^2.9.15",
@@ -65,6 +66,7 @@
     "http-errors": "^1.7.3",
     "ienoopen": "^1.0.0",
     "inquirer": "^7.0.1",
+    "is-reachable": "^4.0.0",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
