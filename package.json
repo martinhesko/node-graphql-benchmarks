@@ -117,6 +117,7 @@
     "@types/microrouter": "^3.1.1",
     "@types/restify": "^8.4.2",
     "eslint": "^7.2.0",
+    "prettier": "2.0.5",
     "snazzy": "^8.0.0",
     "standard": "^14.3.1",
     "typescript": "^3.7.4"
