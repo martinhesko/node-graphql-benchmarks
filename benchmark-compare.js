@@ -47,10 +47,10 @@ if (!choices.length) {
     : {};
   const table = new Table({
     chars: tableSeparatorChars,
-    head: ["Server", "Requests/s", "Latency", "Throughput/Mb"]
+    head: ["Server", "Requests/s", "Latency", "Throughput/Mb", "Startup time"]
   });
   if (commander.commandlineMdTable) {
-    table.push([":--", "--:", ":-:", "--:"]);
+    table.push([":--", "--:", ":-:", "--:", "--:"]);
   }
 
   let data = [];
@@ -75,13 +75,14 @@ if (!choices.length) {
         beBold,
         chalk.blue(
           commander.commandlineMdTable
-            ? `[${data.server}](https://github.com/benawad/node-graphql-benchmarks/tree/master/benchmarks/${data.server}.js)`
+            ? `[${data.server}](https://github.com/martinhesko/node-graphql-benchmarks/tree/master/benchmarks/${data.server}.js)`
             : data.server
         )
       ),
       bold(beBold, data.requests.average.toFixed(1)),
       bold(beBold, data.latency.average.toFixed(2)),
-      bold(beBold, (data.throughput.average / 1024 / 1024).toFixed(2))
+      bold(beBold, (data.throughput.average / 1024 / 1024).toFixed(2)),
+      bold(beBold, data.startupTime.toFixed(2))
     ]);
   });
 
