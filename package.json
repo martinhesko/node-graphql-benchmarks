@@ -53,7 +53,7 @@
     "fastify-gql": "^2.1.0",
     "foxify": "^0.10.20",
     "frameguard": "^3.0.0",
-    "graphback": "^0.14.0-alpha4",
+    "graphback": "^0.14.0",
     "graphql-api-koa": "^4.1.0",
     "graphql-compose": "^7.9.0",
     "graphql-jit": "^0.4.2",

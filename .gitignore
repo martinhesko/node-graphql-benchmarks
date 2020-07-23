@@ -58,6 +58,9 @@ package-lock.json
 # benchmark results
 results
 
+# graphback templates
+templates
+
 dist
 results100
 results5
