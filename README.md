@@ -25,7 +25,6 @@ pipelining: 1
 
 | Server                                                                                                                            | Requests/s | Latency | Throughput/Mb | Startup time |
 | :--                                                                                                                               | --:        | :-:     | --:           | --:          |
-| [apollo-express-builtin](https://github.com/martinhesko/node-graphql-benchmarks/tree/master/benchmarks/apollo-express-builtin.js) | 1630.0     | 2.71    | 2.43          | 0.53         |
 | [mongo10types](https://github.com/martinhesko/node-graphql-benchmarks/tree/master/benchmarks/mongo10types.js)                     | 1116.8     | 4.24    | 3.84          | 4.17         |
 | [postgres10types](https://github.com/martinhesko/node-graphql-benchmarks/tree/master/benchmarks/postgres10types.js)               | 1113.6     | 4.14    | 3.14          | 3.04         |
 | [mongo100types](https://github.com/martinhesko/node-graphql-benchmarks/tree/master/benchmarks/mongo100types.js)                   | 1070.8     | 4.28    | 3.65          | 9.85         |
