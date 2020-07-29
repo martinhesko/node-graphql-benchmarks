@@ -12,8 +12,8 @@ For further details, please check out [this video](https://www.youtube.com/watch
 # Usage
 
 ```
-git clone https://github.com/benawad/benchmarks
-cd benchmarks
+git clone https://github.com/martinhesko/node-graphql-benchmarks.git 
+cd node-graphql-benchmarks
 npm install
 npm start
 ```
